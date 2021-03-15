@@ -184,6 +184,7 @@ RUN echo "deb http://deb.debian.org/debian/ unstable main" > /etc/apt/sources.li
     openvpn \
     procps \
     wireguard-tools \
+    wireguard-dkms \
     && apt-get clean \
     && apt autoremove -y \
     && rm -rf \
